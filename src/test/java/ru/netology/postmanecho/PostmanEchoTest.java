@@ -18,6 +18,6 @@ class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("value", org.hamcrest.Matchers.equalTo(text));
+                .body("data", org.hamcrest.Matchers.equalTo(text));
     }
 }
